@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABAP Code Helper System</title>
+   
 </head>
 <body>
 
@@ -30,8 +30,8 @@
 <h2>Installation</h2>
 <ol>
     <li><strong>Clone the Repository</strong>:
-        <pre><code>git clone https://github.com/yourusername/abap-code-helper.git
-cd abap-code-helper</code></pre>
+        <pre><code>git clone https://github.com/arav4450/ABAP-Code-Helper.git
+cd ABAP-Code-Helper</code></pre>
     </li>
     <li><strong>Set Up the Environment</strong>: Create and activate a virtual environment:
         <pre><code>python3 -m venv venv
@@ -40,13 +40,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`</code></pre>
     <li><strong>Install pip-tools</strong>: Install `pip-tools` for dependency management:
         <pre><code>pip install pip-tools</code></pre>
     </li>
-    
     <li><strong>Compile and Sync Dependencies</strong>: Use `pip-compile` to generate the `dev.txt` file and `pip-sync` to install the dependencies:
         <pre><code>pip-compile dev.in
 pip-sync dev.txt</code></pre>
     </li>
     <li><strong>Download and Install Ollama</strong>: Visit <a href="https://ollama.com/">Ollama.com</a> to download Ollama. Pull the required model by running the following command:
-        <pre><code>ollama pull code-llm</code></pre>
+        <pre><code>ollama pull codellama:7b</code></pre>
     </li>
 </ol>
 

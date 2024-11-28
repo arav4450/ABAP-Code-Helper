@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABAP Coding Tutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ABAP Code Helper</h1>
+    
+        <div class="prompt-section">
+            <textarea id="descriptionInput" placeholder="Describe the code you need"></textarea>
+            <button onclick="generateCode()">Generate Code</button>
+        </div>
+    
+        <div class="code-section">
+            <textarea id="codeInput" placeholder="Enter your ABAP code for analysis"></textarea>
+            <button onclick="submitCode()">Analyze Code</button>
+        </div>
+    
+        <div id="response"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
